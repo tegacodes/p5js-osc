@@ -1,6 +1,5 @@
 var osc = require('node-osc'),
     io = require('socket.io').listen(8081);
-    //this port number has to match the port number being listened to in p5js
 
 var oscServer, oscClient;
 
